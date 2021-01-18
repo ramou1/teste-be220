@@ -11,16 +11,23 @@
 
   <ion-item>
     <ion-avatar item-start>
-      <img src="../assets/imgs/profile-picture.png">
+      <img src="../assets/imgs/ramon.jpg">
     </ion-avatar>
-    <h2>Marty McFly</h2>
-    <p>November 5, 1955</p>
+    <h2 class="titulo">Ramon Oliveira</h2>
+    <p class="titulo">25 anos.</p>
   </ion-item>
 
+  <hr>
+
   <ion-list>
-    <ion-item *ngFor="let item of items">
-      <ion-icon [name]="item.icon" item-start></ion-icon>
-      {{item.text}}
+    <ion-item *ngFor="let info of infos">
+      <ion-icon [name]="info.icon" item-start></ion-icon>
+      <p text-wrap>{{info.text}}</p>
+    </ion-item>
+
+    <ion-item *ngFor="let social of socials">
+      <ion-icon [name]="social.icon" item-start></ion-icon>
+      <p text-wrap><a href="{{social.link}}">{{social.text}}</a></p>
     </ion-item>
   </ion-list>
 </ion-content>

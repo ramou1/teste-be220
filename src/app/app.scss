@@ -3,6 +3,22 @@
     font-family: 'Oswald';
 }
 
+h1 {
+    text-transform: uppercase;
+    margin-top: 4rem;
+}
+
+.item-md p {
+    margin: 0;
+    font-size: 1.8rem;
+    color: #fff;
+    font-weight: 200;
+}
+
+.content-md hr {
+    background-color: #644ad4;
+}
+
 ion-icon {
     font-family: 'Ionicons';
 }
@@ -11,7 +27,7 @@ ion-icon {
     font-size: 3rem;
 }
 
-ion-label {
+ion-label, .item-md h2 {
     font-size: 2rem;
 }
 
