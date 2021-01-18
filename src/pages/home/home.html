@@ -1,16 +1,4 @@
 <ion-header>
-  <!-- <ion-navbar>
-
-    <ion-item>
-      <ion-avatar item-start>
-        <img src="../assets/imgs/profile-picture.png"> 
-      </ion-avatar>
-      <h2 class="profile-name">Leonardo Santos</h2>
-      <p class="profile-title">Nível Roxo</p>
-    </ion-item>
-
-  </ion-navbar> -->
-
   <ion-navbar>
     <ion-grid>
       <ion-row>
@@ -27,7 +15,7 @@
         <ion-col col-2>
           <button ion-button clear>
             <ion-icon name="notifications" class="icone-notificacao">
-              <ion-badge id="notifications-badge">5</ion-badge>
+              <ion-badge id="notifications-badge">1</ion-badge>
             </ion-icon>
           </button>
         </ion-col>
@@ -71,16 +59,16 @@
 
     <ion-slide style="background-image:url('../assets/imgs/novo-treino.jpg');" class="slide-style">
       <ion-grid>
-        <ion-row>
+        <ion-row class="margin-novo-treino">
           <ion-col></ion-col>
           <ion-col col-auto>
             <div>
-              <ion-icon name="add"></ion-icon>
+              <ion-icon name="add" class="icone-novo-treino"></ion-icon>
             </div>
           </ion-col>
           <ion-col>
             <div>
-              <h2>Novo<br>Treino</h2>
+              <h2 class="texto-novo-treino">Novo<br>Treino</h2>
             </div>
           </ion-col>
           <ion-col></ion-col>

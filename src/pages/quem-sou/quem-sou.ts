@@ -18,8 +18,17 @@ export class QuemSouPage {
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
 
+  items: any = [
+    {'icon':'flask', 'text':'flask'},
+    {'icon':'flask', 'text':'flask'},
+    {'icon':'flask', 'text':'flask'},
+    {'icon':'flask', 'text':'flask'},
+    {'icon':'flask', 'text':'flask'}
+  ];
+
+
   ionViewDidLoad() {
-    console.log('ionViewDidLoad QuemSouPage');
+    // console.log('ionViewDidLoad QuemSouPage');
   }
 
 }
