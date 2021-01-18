@@ -1,5 +1,7 @@
 {
   "name": "projeto-be220",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "ionic-angular"
 }

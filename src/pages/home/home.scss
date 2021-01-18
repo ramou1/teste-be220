@@ -1,3 +1,125 @@
 page-home {
 
+  // style header
+
+  .logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+  }
+
+  .toolbar-background {
+    background-color: #202020;
+    padding-bottom: 4rem; 
+    border: 0 0 40% 40%;
+  }
+
+  .icone-notificacao {
+    font-size: 1.8rem;
+    color: #f07d07;
+    background: black;
+    padding: 7px 10px;
+    /* border-radius */
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    /* box-shadow */
+    -webkit-box-shadow: rgba(0,0,0,0.8) 0px 0 10px;
+    -moz-box-shadow: rgba(0,0,0,0.8) 0 0 10px;
+    box-shadow: rgba(0,0,0,0.8) 0 0 10px;
+  }
+
+#notifications-badge {
+    font-size: 0;
+    padding: 5px;
+    background-color: #7aebce;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-radius: 50%;
+}
+
+  .icone-menor {
+    font-size: 1.2rem;
+    color: #f07d07;
+    border: 1px solid;
+    padding: 6px 5px;
+    border-radius: 50%;
+    margin-right: 5px;
+  }
+
+  .texto-menor {
+    color: #f07d07;
+    font-size: 1.2rem;
+  }
+
+  .background-menor {
+    background-color: #161616;
+    border-radius: 30px;
+    padding: 0;
+    text-align: center;
+  }
+
+  .toolbar-md {
+    padding-bottom: 10px;
+    border-radius: 0 0 50px 50px;
+  }
+
+  .button-md {
+    padding: 0;
+  }
+
+  .swiper-pagination {
+    display: none;
+  }
+
+  .profile-name {
+    font-size: 2rem;
+    font-weight: 500 !important;
+  }
+
+  .profile-title {
+    font-size: 1.6rem;
+    color: #6033cd;
+  }
+
+  // fim do style do header
+
+  .bg-style {
+    background: #090909;
+  }
+
+  ion-slides {
+    height: 150px;
+  }
+
+  .slide-style {
+    border-radius: 21px;
+    background-size: cover;
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+  }
+
+  .slide-zoom {
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 20px;
+  }
+
+  h1 {
+    text-transform: uppercase;
+    margin-top: 4rem;
+  }
+    
+  .slide-title {
+    font-size: 1.8rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+  }
+      
 }
